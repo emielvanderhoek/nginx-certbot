@@ -114,10 +114,10 @@ function reload_nginx {
 ###################################################################
 
 
-domains_list=("example.com www.example.com" "api.example.com www.api.example.com")
+domains_list=("host-0.polkasource.io" "node.polkasource.io")
 rsa_key_size=4096
-data_path="/home/example/certbot"
-email="example@example.com" # Adding a valid address is strongly recommended
+data_path="/home/polkasource/certbot"
+email="ehoek@openaware.eu" # Adding a valid address is strongly recommended
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 
 check_if_docker_compose_installed
