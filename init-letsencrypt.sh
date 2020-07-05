@@ -114,7 +114,7 @@ function reload_nginx {
 ###################################################################
 
 
-domains_list=("host-60.polkasource.io" "node-60.polkasource.io")
+domains_list=("host-60.polkasource.io" "discovery-60.polkasource.io" "node-60.polkasource.io" "harvester-60.polkasource.io" "explorer-60.polkasource.io")
 rsa_key_size=4096
 data_path="./data/certbot"
 email="ehoek@openaware.eu" # Adding a valid address is strongly recommended
