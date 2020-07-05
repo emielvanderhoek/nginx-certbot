@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(host-60.polkasource.io node-60.polkasource.io)
+domains=(host-60.polkasource.io)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="ehoek@openaware.eu" # Adding a valid address is strongly recommended
